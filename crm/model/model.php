@@ -34,7 +34,7 @@ $db_name = "itourscloud_demo5";
 global $conn;
 $conn = new mysqli($servername, $username, $password, $db_name);
 
-define('BASE_URL', 'https://demo5.itourscloud.com/crm/');
+define('BASE_URL', 'https://localhost/demo5/crm');
 
 mysqli_query($conn, "SET SESSION sql_mode = ''");
 $b2b_index_url = BASE_URL . 'Tours_B2B/view/index.php';

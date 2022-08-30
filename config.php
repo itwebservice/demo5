@@ -26,8 +26,8 @@ $db_name = "itourscloud_demo5";
 global $connection;
 $connection = new mysqli($servername, $username, $password, $db_name);
 
-define('BASE_URL', 'https://demo5.itourscloud.com/crm/');
-define('BASE_URL_B2C', 'https://demo5.itourscloud.com/');
+define('BASE_URL', 'http://localhost/demo5/crm/');
+define('BASE_URL_B2C', 'http://localhost/demo5/');
 mysqli_query($connection,"SET SESSION sql_mode = ''");
 // mysqli_set_charset($connection,'utf8');
 //**********Global Variables start**************//
