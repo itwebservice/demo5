@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'api.php';
 
 //Include header
 
@@ -120,7 +120,7 @@ global $app_contact_no;
 
                         </span>
 
-                        <a  class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->address ?></a>
+                        <a class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->address ?></a>
 
                     </li>
 
@@ -132,7 +132,7 @@ global $app_contact_no;
 
                         </span>
 
-                        <a <?= $cached_array[0]->company_profile_data[0]->contact_no ?>" class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
+                        <a <?= $cached_array[0]->company_profile_data[0]->contact_no ?> class="ts-contact-info-link"><?= $cached_array[0]->company_profile_data[0]->contact_no ?></a>
 
                     </li>
 

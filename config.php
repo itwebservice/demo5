@@ -10,6 +10,7 @@ ini_set("session.gc_maxlifetime", 3*60*60);
 ini_set('session.gc_maxlifetime', 3*60*60);
 session_start();
 
+
 date_default_timezone_set('Asia/Kolkata');
 
 set_error_handler("myErrorHandler");
@@ -20,15 +21,17 @@ $localIP = getHostByName(getHostName());
 
 // Create connection
 $servername = "localhost";
-$username = "itourscloud_demo5_u";
-$password = "B$%^X;[i?!M";
+$username = "root";
+$password = "";
 $db_name = "itourscloud_demo5";
 global $connection;
 $connection = new mysqli($servername, $username, $password, $db_name);
 
 define('BASE_URL', 'http://localhost/demo5/crm/');
+define('BASE_URL_API', 'http://localhost/demo5/frontendAPI/public/api');
 define('BASE_URL_B2C', 'http://localhost/demo5/');
 mysqli_query($connection,"SET SESSION sql_mode = ''");
+
 // mysqli_set_charset($connection,'utf8');
 //**********Global Variables start**************//
 global $admin_logo_url, $circle_logo_url, $report_logo_small_url, $app_email_id_send, $app_smtp_host, $app_smtp_port, $app_smtp_password,$app_smtp_method,$app_smtp_status,$app_name,$app_contact_no,$currency_logo,$currency_code;

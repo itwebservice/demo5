@@ -1,5 +1,5 @@
 <?php
-include '../../config.php';
+include '../../api.php';
 include BASE_URL.'model/model.php';
 include '../../layouts/header.php';
 

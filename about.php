@@ -1,6 +1,6 @@
 <?php
 
-include 'config.php';
+include 'api.php';
 
 //Include header
 
@@ -210,6 +210,7 @@ include 'layouts/header.php';
 
             </div>
 
+            
 
         </div>
 
@@ -262,6 +263,8 @@ include 'layouts/header.php';
 </section>
 
 <!-- Special Section End -->
+
+
 
 
 <script type="text/javascript" src="js/scripts.js"></script>
