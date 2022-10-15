@@ -452,7 +452,7 @@ $date1 = str_replace('-', '/', $date);
     <div class="container">
         <div class="t-hotels-content">
             <div class="t-package-header">
-                <h2 class="t-package-title section-title">Explore <span>Popular hotels</span></h2>
+                <h2 class="t-package-title section-title">Explore <span>Popular Hotels</span></h2>
                 <div class="section-title-line text-center">
                     <div class="t-package-style"></div>
                     <div class="t-package-style-line"></div>
@@ -526,8 +526,8 @@ $date1 = str_replace('-', '/', $date);
                             Experienced tourism professionals serve tourists better as per their convenience.</p>
                         <!--<h5 class="deals-helpline">Help line: +001 21745 12345</h5>-->
                         <div class="deals-book-btns">
-                            <a href="about.php" class="btn">ABOUT US</a>
-                            <a href="contact.php" class="btn">CONTACT NOW</a>
+                            <a href="about.php" target="_blank" class="btn">ABOUT US</a>
+                            <a href="contact.php" target="_blank" class="btn">CONTACT US</a>
                         </div>
                     </div>
                 </div>
