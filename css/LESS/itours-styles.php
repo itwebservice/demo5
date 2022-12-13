@@ -3396,7 +3396,7 @@ justify-content: end;
 font-size: 26px;
 color: #fff;
 padding-bottom: 0px;
-white-space: nowrap;
+//white-space: nowrap;
 text-overflow: ellipsis;
 margin-bottom: 2px;
 font-family: "Quicksand", sans-serif;
