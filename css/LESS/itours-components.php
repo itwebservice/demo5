@@ -1,3 +1,17 @@
+<?php
+include '../../crm/model/model.php';
+$data = mysqli_fetch_array(mysqlQuery('SELECT * FROM `b2c_color_scheme`'));
+if (!empty($data)) {
+  $btnColor = $data['button_color'];
+  $primaryColor = $data['text_primary_color'];
+} else {
+  $btnColor = '#ff5300';
+  $primaryColor = '#f68c34';
+}
+?>
+
+@import "./_library.less";
+
 /* ----------------------------------------------
 Component :: Font Setting
 ------------------------------------------------- */
@@ -6,7 +20,7 @@ Component :: Font Setting
 font-family: 'Saira Condensed', sans-serif;
 font-family: 'Lato', sans-serif;
 */
-@import "./_library.less";
+
 /* ----------------------------------------------
 Component :: Star Rating
 ------------------------------------------------- */
@@ -388,7 +402,7 @@ Component :: Headings
 font-weight: bold;
 display: block;
 color: #333;
-font-size: 30px;
+font-size: 20px;
 line-height: 23px;
 margin: 15px 0 15px;
 }
@@ -1723,7 +1737,7 @@ padding: 10px;
 }
 .cardList-info .dividerSection .divider.s2 {
 text-align: center;
-padding: 30px;
+padding: 20px;
 border-left: 1px solid #f5f5f5;
 }
 .cardList-info .dividerSection .divider.b2cs2 {
@@ -1768,7 +1782,7 @@ font-family: "itours";
 content: "\5c";
 }
 .cardList-info .cardInfoLine.cust .icon {
-color: var(--main-primary-color);
+color: var(--secondary-color);
 font-size: 12px;
 line-height: 11px;
 position: absolute;

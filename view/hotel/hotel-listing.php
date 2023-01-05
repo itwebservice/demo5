@@ -1,6 +1,6 @@
 <?php
 
-include '../../api.php';
+include '../../config.php';
 
 include BASE_URL.'model/model.php';
 
@@ -566,7 +566,7 @@ for ($i_date=$check_in; $i_date<=$check_out; $i_date+=86400) {
 
               }else{
 
-                $newUrl = BASE_URL.'images/dummy-image.jpg';
+                $newUrl = BASE_URL_B2C.'images/hotel_general.png';
 
               }
 

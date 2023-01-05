@@ -1,6 +1,6 @@
 <?php
 
-include 'api.php';
+include 'config.php';
 
 include BASE_URL.'model/model.php';
 

@@ -1,6 +1,6 @@
 <?php
 
-include 'api.php';
+include 'config.php';
 
 //Include header
 
@@ -101,7 +101,7 @@ include 'layouts/header.php';
 
         </div>
 
-        <h2 class="ts-section-title">Why Choose Us?</h2>
+        <h2 class="ts-section-title">WHY CHOOSE US?</h2>
 
 
 

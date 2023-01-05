@@ -1,6 +1,6 @@
     <?php
 
-include 'api.php';
+include 'config.php';
 
 $service = $_GET['service'];
 
